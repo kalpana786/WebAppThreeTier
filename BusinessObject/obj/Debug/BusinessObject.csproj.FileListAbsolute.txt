@@ -1,0 +1,6 @@
+F:\Works\BusinessObject\bin\BusinessObject.dll.config
+F:\Works\BusinessObject\bin\BusinessObject.dll
+F:\Works\BusinessObject\bin\BusinessObject.pdb
+F:\Works\BusinessObject\obj\Debug\BusinessObject.csprojAssemblyReference.cache
+F:\Works\BusinessObject\obj\Debug\BusinessObject.dll
+F:\Works\BusinessObject\obj\Debug\BusinessObject.pdb
