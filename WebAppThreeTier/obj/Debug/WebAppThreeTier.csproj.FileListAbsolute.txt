@@ -1,0 +1,6 @@
+F:\Works\WebAppThreeTier\bin\WebAppThreeTier.dll.config
+F:\Works\WebAppThreeTier\bin\WebAppThreeTier.dll
+F:\Works\WebAppThreeTier\bin\WebAppThreeTier.pdb
+F:\Works\WebAppThreeTier\obj\Debug\WebAppThreeTier.csprojAssemblyReference.cache
+F:\Works\WebAppThreeTier\obj\Debug\WebAppThreeTier.dll
+F:\Works\WebAppThreeTier\obj\Debug\WebAppThreeTier.pdb
