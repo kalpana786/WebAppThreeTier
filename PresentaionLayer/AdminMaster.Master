@@ -1,0 +1,60 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AdminMaster.master.cs" Inherits="PresentaionLayer.AdminMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <table>
+            <tr>
+                <td>
+                    <img src="../img/banner.jpg"" style="height: 142px; width: 924px" /></td>
+            </tr>
+            <tr>
+                <td>
+                    <asp:Menu ID="Menu1" runat="server" BackColor="#F7F6F3" DynamicHorizontalOffset="2" Font-Names="Verdana" Font-Size="0.8em" ForeColor="#7C6F57" Orientation="Horizontal" StaticSubMenuIndent="10px" Width="800px">
+                        <DynamicHoverStyle BackColor="#7C6F57" ForeColor="White" />
+                        <DynamicMenuItemStyle HorizontalPadding="10px" VerticalPadding="2px" />
+                        <DynamicMenuStyle BackColor="#F7F6F3" />
+                        <DynamicSelectedStyle BackColor="#5D7B9D" />
+                        <Items>
+                            <asp:MenuItem NavigateUrl="~/index.aspx" Text="Home" Value="Home"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/aboutus.aspx" Text="About Us" Value="About Us"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/contactus.aspx" Text="Contact Us" Value="Contact Us"></asp:MenuItem>
+                            <asp:MenuItem Text="Employee" Value="Employee">
+                                <asp:MenuItem NavigateUrl="~/Employee/SearchEmployee.aspx" Text="Search Employee" Value="Search Employee"></asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="~/Employee/AddEmployee.aspx" Text="Add Employee" Value="Add Employee"></asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="~/Employee/UpdateEmployee.aspx" Text="Update Employee" Value="Update Employee"></asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="~/Employee/DeleteEmployee.aspx" Text="Delete Employee" Value="Delete Employee"></asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="~/Employee/AllEmployee.aspx" Text="All Employee" Value="All Employee"></asp:MenuItem>
+                            </asp:MenuItem>
+                        </Items>
+                        <StaticHoverStyle BackColor="#7C6F57" ForeColor="White" />
+                        <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                        <StaticSelectedStyle BackColor="#5D7B9D" />
+                    </asp:Menu>
+                </td>
+            </tr>
+            <tr>
+                <td>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+            </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Copyright@2021</td>
+            </tr>
+        </table>
+
+    </div>
+    </form>
+</body>
+</html>
